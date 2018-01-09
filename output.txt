@@ -1,0 +1,1446 @@
+
+Number Of Instructions: 23
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 1
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is MOVC R0, #0
+
+
+Instruction in Decode is 
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 2
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is MOVC R1, #1
+
+
+Instruction in Decode is MOVC R0, #0
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 3
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R1, R0, #0  
+
+
+Instruction in Decode is MOVC R1, #1
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is MOVC R0, #0
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 4
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is MOVC R2, #2
+
+
+Instruction in Decode is STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is MOVC R1, #1
+
+
+Instruction in Memory is MOVC R0, #0
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 5
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for MOVC R2, #2
+
+
+Decode Stalled for STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is MOVC R1, #1
+
+
+Instruction in Writeback is MOVC R0, #0
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 6
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for MOVC R2, #2
+
+
+Decode Stalled for STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is MOVC R1, #1
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 7
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R2, R0, #4  
+
+
+Instruction in Decode is MOVC R2, #2
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R1, R0, #0  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 8
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is MOVC R3, #0
+
+
+Instruction in Decode is STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is MOVC R2, #2
+
+
+Instruction in Memory is STORE R1, R0, #0  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 9
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for MOVC R3, #0
+
+
+Decode Stalled for STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is MOVC R2, #2
+
+
+Instruction in Writeback is STORE R1, R0, #0  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 10
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for MOVC R3, #0
+
+
+Decode Stalled for STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is MOVC R2, #2
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 11
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R3, R0, #8  
+
+
+Instruction in Decode is MOVC R3, #0
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R2, R0, #4  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 12
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is MOVC R4, #2
+
+
+Instruction in Decode is STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is MOVC R3, #0
+
+
+Instruction in Memory is STORE R2, R0, #4  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 13
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for MOVC R4, #2
+
+
+Decode Stalled for STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is MOVC R3, #0
+
+
+Instruction in Writeback is STORE R2, R0, #4  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 14
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for MOVC R4, #2
+
+
+Decode Stalled for STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is MOVC R3, #0
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 15
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R4, R0, #16
+
+
+Instruction in Decode is MOVC R4, #2
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R3, R0, #8  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 16
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is MOVC R8, #1  
+
+
+Instruction in Decode is STORE R4, R0, #16
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is MOVC R4, #2
+
+
+Instruction in Memory is STORE R3, R0, #8  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 17
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for MOVC R8, #1  
+
+
+Decode Stalled for STORE R4, R0, #16
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is MOVC R4, #2
+
+
+Instruction in Writeback is STORE R3, R0, #8  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 18
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for MOVC R8, #1  
+
+
+Decode Stalled for STORE R4, R0, #16
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is MOVC R4, #2
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 19
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is LOAD R1, R0, #0    
+
+
+Instruction in Decode is MOVC R8, #1  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R4, R0, #16
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 20
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is LOAD R2, R0, #4    
+
+
+Instruction in Decode is LOAD R1, R0, #0    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is MOVC R8, #1  
+
+
+Instruction in Memory is STORE R4, R0, #16
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 21
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is LOAD R3, R0, #8    
+
+
+Instruction in Decode is LOAD R2, R0, #4    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is LOAD R1, R0, #0    
+
+
+Instruction in Memory is MOVC R8, #1  
+
+
+Instruction in Writeback is STORE R4, R0, #16
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 22
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is MUL R3, R1, R2        
+
+
+Instruction in Decode is LOAD R3, R0, #8    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is LOAD R2, R0, #4    
+
+
+Instruction in Memory is LOAD R1, R0, #0    
+
+
+Instruction in Writeback is MOVC R8, #1  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 23
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R3, R0, #8  
+
+
+Instruction in Decode is MUL R3, R1, R2        
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is LOAD R3, R0, #8    
+
+
+Instruction in Memory is LOAD R2, R0, #4    
+
+
+Instruction in Writeback is LOAD R1, R0, #0    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 24
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for STORE R3, R0, #8  
+
+
+Decode Stalled for MUL R3, R1, R2        
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is LOAD R3, R0, #8    
+
+
+Instruction in Writeback is LOAD R2, R0, #4    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 25
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is ADD R1, R1, R8        
+
+
+Instruction in Decode is STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is MUL R3, R1, R2        
+
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is LOAD R3, R0, #8    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 26
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R1, R1, R8        
+
+
+Decode Stalled for STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is MUL R3, R1, R2        
+
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 27
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R1, R1, R8        
+
+
+Decode Stalled for STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is MUL R3, R1, R2        
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 28
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R1, R1, R8        
+
+
+Decode Stalled for STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is MUL R3, R1, R2        
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 29
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R1, R0, #0  
+
+
+Instruction in Decode is ADD R1, R1, R8        
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R3, R0, #8  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 30
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is ADD R2, R2, R8    
+
+
+Instruction in Decode is STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is ADD R1, R1, R8        
+
+
+Instruction in Memory is STORE R3, R0, #8  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 31
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R2, R2, R8    
+
+
+Decode Stalled for STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is ADD R1, R1, R8        
+
+
+Instruction in Writeback is STORE R3, R0, #8  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 32
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R2, R2, R8    
+
+
+Decode Stalled for STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is ADD R1, R1, R8        
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 33
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R2, R0, #4  
+
+
+Instruction in Decode is ADD R2, R2, R8    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R1, R0, #0  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 34
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is LOAD R4, R0, #16    
+
+
+Instruction in Decode is STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is ADD R2, R2, R8    
+
+
+Instruction in Memory is STORE R1, R0, #0  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 35
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for LOAD R4, R0, #16    
+
+
+Decode Stalled for STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is ADD R2, R2, R8    
+
+
+Instruction in Writeback is STORE R1, R0, #0  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 36
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for LOAD R4, R0, #16    
+
+
+Decode Stalled for STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is ADD R2, R2, R8    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 37
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is SUB R4, R4, R8  
+
+
+Instruction in Decode is LOAD R4, R0, #16    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R2, R0, #4  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 38
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R4, R0, #16    
+
+
+Instruction in Decode is SUB R4, R4, R8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is LOAD R4, R0, #16    
+
+
+Instruction in Memory is STORE R2, R0, #4  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 39
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for STORE R4, R0, #16    
+
+
+Decode Stalled for SUB R4, R4, R8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is LOAD R4, R0, #16    
+
+
+Instruction in Writeback is STORE R2, R0, #4  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 40
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for STORE R4, R0, #16    
+
+
+Decode Stalled for SUB R4, R4, R8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is LOAD R4, R0, #16    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 41
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is BNZ #-48
+
+Instruction in Decode is STORE R4, R0, #16    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is SUB R4, R4, R8  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 42
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for BNZ #-48
+
+Decode Stalled for STORE R4, R0, #16    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is SUB R4, R4, R8  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 43
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for BNZ #-48
+
+Decode Stalled for STORE R4, R0, #16    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is SUB R4, R4, R8  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 44
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is 
+
+Instruction in Decode is BNZ #-48
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R4, R0, #16    
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 45
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is 
+
+Instruction in Decode is 
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is BNZ #-48
+
+Instruction in Memory is STORE R4, R0, #16    
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 46
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is LOAD R1, R0, #0    
+
+
+Instruction in Decode is 
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is BNZ #-48
+
+Instruction in Writeback is STORE R4, R0, #16    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 47
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is LOAD R2, R0, #4    
+
+
+Instruction in Decode is LOAD R1, R0, #0    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is BNZ #-48
+----------------------------------------------------------------------------------------------------
+Cycle Number = 48
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is LOAD R3, R0, #8    
+
+
+Instruction in Decode is LOAD R2, R0, #4    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is LOAD R1, R0, #0    
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 49
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is MUL R3, R1, R2        
+
+
+Instruction in Decode is LOAD R3, R0, #8    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is LOAD R2, R0, #4    
+
+
+Instruction in Memory is LOAD R1, R0, #0    
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 50
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R3, R0, #8  
+
+
+Instruction in Decode is MUL R3, R1, R2        
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is LOAD R3, R0, #8    
+
+
+Instruction in Memory is LOAD R2, R0, #4    
+
+
+Instruction in Writeback is LOAD R1, R0, #0    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 51
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for STORE R3, R0, #8  
+
+
+Decode Stalled for MUL R3, R1, R2        
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is LOAD R3, R0, #8    
+
+
+Instruction in Writeback is LOAD R2, R0, #4    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 52
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is ADD R1, R1, R8        
+
+
+Instruction in Decode is STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is MUL R3, R1, R2        
+
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is LOAD R3, R0, #8    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 53
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R1, R1, R8        
+
+
+Decode Stalled for STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is MUL R3, R1, R2        
+
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 54
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R1, R1, R8        
+
+
+Decode Stalled for STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is MUL R3, R1, R2        
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 55
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R1, R1, R8        
+
+
+Decode Stalled for STORE R3, R0, #8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is MUL R3, R1, R2        
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 56
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R1, R0, #0  
+
+
+Instruction in Decode is ADD R1, R1, R8        
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R3, R0, #8  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 57
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is ADD R2, R2, R8    
+
+
+Instruction in Decode is STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is ADD R1, R1, R8        
+
+
+Instruction in Memory is STORE R3, R0, #8  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 58
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R2, R2, R8    
+
+
+Decode Stalled for STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is ADD R1, R1, R8        
+
+
+Instruction in Writeback is STORE R3, R0, #8  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 59
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for ADD R2, R2, R8    
+
+
+Decode Stalled for STORE R1, R0, #0  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is ADD R1, R1, R8        
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 60
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R2, R0, #4  
+
+
+Instruction in Decode is ADD R2, R2, R8    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R1, R0, #0  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 61
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is LOAD R4, R0, #16    
+
+
+Instruction in Decode is STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is ADD R2, R2, R8    
+
+
+Instruction in Memory is STORE R1, R0, #0  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 62
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for LOAD R4, R0, #16    
+
+
+Decode Stalled for STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is ADD R2, R2, R8    
+
+
+Instruction in Writeback is STORE R1, R0, #0  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 63
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for LOAD R4, R0, #16    
+
+
+Decode Stalled for STORE R2, R0, #4  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is ADD R2, R2, R8    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 64
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is SUB R4, R4, R8  
+
+
+Instruction in Decode is LOAD R4, R0, #16    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R2, R0, #4  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 65
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is STORE R4, R0, #16    
+
+
+Instruction in Decode is SUB R4, R4, R8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is LOAD R4, R0, #16    
+
+
+Instruction in Memory is STORE R2, R0, #4  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 66
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for STORE R4, R0, #16    
+
+
+Decode Stalled for SUB R4, R4, R8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is LOAD R4, R0, #16    
+
+
+Instruction in Writeback is STORE R2, R0, #4  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 67
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for STORE R4, R0, #16    
+
+
+Decode Stalled for SUB R4, R4, R8  
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is LOAD R4, R0, #16    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 68
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is BNZ #-48
+
+Instruction in Decode is STORE R4, R0, #16    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is SUB R4, R4, R8  
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 69
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for BNZ #-48
+
+Decode Stalled for STORE R4, R0, #16    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is SUB R4, R4, R8  
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 70
+----------------------------------------------------------------------------------------------------
+Fetch Stalled for BNZ #-48
+
+Decode Stalled for STORE R4, R0, #16    
+
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is SUB R4, R4, R8  
+
+
+Status Flag zero set by SUB R4, R4, R8  
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 71
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is 
+
+Instruction in Decode is BNZ #-48
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is STORE R4, R0, #16    
+
+
+Instruction in Memory is 
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 72
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is 
+
+Instruction in Decode is 
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is BNZ #-48
+
+Instruction in Memory is STORE R4, R0, #16    
+
+
+Instruction in Writeback is 
+----------------------------------------------------------------------------------------------------
+Cycle Number = 73
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is 
+
+Instruction in Decode is 
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is BNZ #-48
+
+Instruction in Writeback is STORE R4, R0, #16    
+
+----------------------------------------------------------------------------------------------------
+Cycle Number = 74
+----------------------------------------------------------------------------------------------------
+Instruction in Fetch is 
+
+Instruction in Decode is 
+
+Instruction in Multiplication FU 1 is 
+
+Instruction in Multiplication FU 2 is 
+
+Instruction in Integer FU is 
+
+Instruction in Memory is 
+
+Instruction in Writeback is BNZ #-48
+----------------------------------------------------------------------------------------------------
+Register Values are :
+----------------------------------------------------------------------------------------------------
+Register is R0 its value is 0 and status its is VALID
+
+Register is R1 its value is 3 and status its is VALID
+
+Register is R2 its value is 4 and status its is VALID
+
+Register is R3 its value is 6 and status its is VALID
+
+Register is R4 its value is 0 and status its is VALID
+
+Register is R8 its value is 1 and status its is VALID
+----------------------------------------------------------------------------------------------------
+Memory Values are :
+----------------------------------------------------------------------------------------------------
+Memory Location is 0 and its value is 3
+
+Memory Location is 4 and its value is 4
+
+Memory Location is 8 and its value is 6
+
+Memory Location is 16 and its value is 0
